@@ -3,6 +3,13 @@
  * Copyright 2011-2023 
  * Licensed under MIT (https://github.com/Componentify-23/Componentify/blob/main/LICENSE)*/
 
+* {
+    margin:0;
+    padding:0;
+}
+
+/* color palette */
+
 :root {
     /* RISK */
     --color-risk-bg: #ffcccc;
@@ -136,7 +143,7 @@
 
 /* LIME */
 .text-lime {
-    color: var(--color-lime-txt) #dc3545;
+    color: var(--color-lime-txt)
 }
 
 /* AZURE */
@@ -202,6 +209,194 @@
 /* PURPLE */
 .text-purple {
     color:var(--color-purple-txt)
+}
+
+/* WHITE */
+
+.text-white {
+    color:#ffffff;
+}
+
+/* BACKGROUND COLORS */
+
+/* RISK */
+.bg-risk {
+    background-color: var(--color-risk-bg)
+}
+/* CAUTION */
+.bg-caution {
+    background-color: var(--color-caution-bg)
+}
+
+/* SILVER */
+.bg-silver {
+    background-color: var(--color-silver-bg)
+}
+
+/* GOLD */
+.bg-gold {
+    background-color: var(--color-gold-bg)
+}
+
+/* LIME */
+.bg-lime {
+    background-color: var(--color-lime-bg)
+}
+
+/* AZURE */
+.bg-azure {
+    background-color: var(--color-azure-bg)
+}
+
+/* MOCCA */
+.bg-mocca {
+    background-color: var(--color-mocca-bg)
+}
+
+/* AQUA */
+.bg-aqua {
+    background-color: var(--color-aqua-bg)
+}
+
+/* SLATE */
+.bg-slate {
+    background-color: var(--color-slate-bg)
+}
+
+/* COMPONENTIFY */
+.bg-componentify {
+    background-color: var(--color-componentify-bg)
+}
+
+/* LOLLYPOP */
+.bg-lollypop {
+    background-color: var(--color-lollypop-bg)
+}
+
+/* MINT */
+.bg-mint {
+    background-color: var(--color-mint-bg)
+}
+
+/* GLOOMY */
+.bg-gloomy {
+    background-color: var(--color-gloomy-bg)
+}
+
+/* FOG */
+.bg-fog {
+    background-color: var(--color-fog-bg)
+}
+
+/* DARK */
+.bg-dark {
+    background-color:var(--color-dark-bg)
+}
+
+/* WIN */
+.bg-win {
+    background-color:var(--color-win-bg)
+}
+
+/* LAVENDER */
+.bg-lavender {
+    background-color: var(--color-lavender-bg)
+}
+
+/* PURPLE */
+.bg-purple {
+    background-color:var(--color-purple-bg)
+}
+
+/* BORDER COLORS */
+
+/* RISK */
+.brd-risk {
+    background-color: var(--color-risk-border)
+}
+/* CAUTION */
+.brd-caution {
+    background-color: var(--color-caution-border)
+}
+
+/* SILVER */
+.brd-silver {
+    background-color: var(--color-silver-border)
+}
+
+/* GOLD */
+.brd-gold {
+   color: var(--color-gold-border)
+}
+
+/* LIME */
+.brd-lime {
+    color: var(--color-lime-border)
+}
+
+/* AZURE */
+.brd-azure {
+    color: var(--color-azure-border)
+}
+
+/* MOCCA */
+.brd-mocca {
+   color: var(--color-mocca-border)
+}
+
+/* AQUA */
+.brd-aqua {
+    color: var(--color-aqua-border)
+}
+
+/* SLATE */
+.brd-slate {
+    color: var(--color-slate-border)
+}
+
+/* COMPONENTIFY */
+.brd-componentify {
+    color: var(--color-componentify-border)
+}
+
+/* LOLLYPOP */
+.brd-lollypop {
+    color: var(--color-lollypop-border)
+}
+
+/* MINT */
+.brd-mint {
+    color: var(--color-mint-border)
+}
+
+/* GLOOMY */
+.brd-gloomy {
+    color: var(--color-gloomy-border)
+}
+
+/* FOG */
+.brd-fog {
+    color: var(--color-fog-border)
+}
+
+/* DARK */
+.brd-dark {
+    color:var(--color-dark-border)
+}
+
+/* WIN */
+.brd-win {
+    color:var(--color-win-border)
+}
+
+/* LAVENDER */
+.brd-lavender {
+    color: var(--color-lavender-border)
+}
+
+/* PURPLE */
+.brd-purple {
+    color:var(--color-purple-border)
 }
 
 
@@ -342,7 +537,7 @@
 
 /* BUTTONS */
 .c-btn {
-    margin:0.5rem;
+    margin:0.25rem;
     padding: 0.5rem 1.25rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -537,3 +732,109 @@
     background-color: var(--color-purple-txt);
     color: var(--color-purple-bg); 
 }
+
+/* IMAGE CARDS */
+
+.c-card {
+    max-width: 20rem;
+    border: 1px solid var(--color-fog-border);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-fog-bg);
+    text-align: left;
+}
+
+.c-card-image {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.c-card-content {
+    padding: 1rem;
+}
+
+.c-card-title {
+    font-size: 1.25rem;
+}
+
+.c-card-description {
+    font-size: 1rem;
+}
+
+/* SIMPLE BORDER CARDS */
+
+.c-card-brd-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin:0;
+}
+
+.c-card-brd-purple {
+    margin: 0;
+    border-color: var(--color-purple-txt); 
+    background-color:var(--color-purple-bg);
+}
+
+.c-card-header-purple {
+    padding: 0.75rem 1.25rem; 
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--color-purple-txt);
+}
+
+.c-card-brd-lavender {
+    margin: 0;
+    border-color: var(--color-lavender-txt); 
+    background-color:var(--color-lavender-bg);
+}
+
+.c-card-header-lavender {
+    padding: 0.75rem 1.25rem; 
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--color-lavender-txt);
+}
+
+.c-card-brd-azure {
+    margin: 0;
+    border-color: var(--color-azure-txt); 
+    background-color:var(--color-azure-bg);
+}
+
+.c-card-header-azure {
+    padding: 0.75rem 1.25rem; 
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--color-azure-txt);
+}
+
+.c-card-brd-mocca {
+    margin: 0;
+    border-color: var(--color-mocca-txt); 
+    background-color:var(--color-mocca-bg);
+}
+
+.c-card-header-mocca {
+    padding: 0.75rem 1.25rem; 
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--color-mocca-txt);
+}
+
+.c-card-brd-description {
+    font-size: 1rem;
+    margin:0;
+}
+
+
+/* CREDIT CARD STYLE */
+
+
+/* BADGES */
+
+.c-badge {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
